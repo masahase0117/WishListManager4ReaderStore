@@ -10,3 +10,63 @@
 #   universal: false
 
 -e file:.
+attrs==24.2.0
+    # via outcome
+    # via trio
+beautifulsoup4==4.12.3
+    # via wishlistmanger4readerstore
+black==24.8.0
+certifi==2024.8.30
+    # via selenium
+cffi==1.17.1
+    # via trio
+click==8.1.7
+    # via black
+colorama==0.4.6
+    # via click
+flake8==7.1.1
+h11==0.14.0
+    # via wsproto
+idna==3.10
+    # via trio
+mccabe==0.7.0
+    # via flake8
+mypy-extensions==1.0.0
+    # via black
+outcome==1.3.0.post0
+    # via trio
+packaging==24.1
+    # via black
+pathspec==0.12.1
+    # via black
+platformdirs==4.3.6
+    # via black
+pycodestyle==2.12.1
+    # via flake8
+pycparser==2.22
+    # via cffi
+pyflakes==3.2.0
+    # via flake8
+pysocks==1.7.1
+    # via urllib3
+selenium==4.25.0
+    # via wishlistmanger4readerstore
+sniffio==1.3.1
+    # via trio
+sortedcontainers==2.4.0
+    # via trio
+soupsieve==2.6
+    # via beautifulsoup4
+trio==0.26.2
+    # via selenium
+    # via trio-websocket
+trio-websocket==0.11.1
+    # via selenium
+typing-extensions==4.12.2
+    # via selenium
+urllib3==2.2.3
+    # via selenium
+websocket-client==1.8.0
+    # via selenium
+wsproto==1.2.0
+    # via trio-websocket
